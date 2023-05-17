@@ -1,5 +1,6 @@
 package leetcode_go
 
+// https://leetcode.cn/problems/valid-parentheses/
 func isValid(s string) bool {
 	if len(s) < 2 {
 		return false
